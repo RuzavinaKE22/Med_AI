@@ -1,0 +1,54 @@
+{
+    "patients": [
+        {
+            "id": 1,
+            "name": "Иван Иванов",
+            "age": 45,
+            "gender": "Мужской",
+            "diagnoses": [
+                {
+                    "date": "2024-01-15",
+                    "condition": "Гипертония",
+                    "severity": "Умеренная"
+                },
+                {
+                    "date": "2024-03-10",
+                    "condition": "Диабет 2 типа",
+                    "severity": "Легкая"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Лизиноприл",
+                    "dosage": "10 мг",
+                    "frequency": "1 раз в день"
+                },
+                {
+                    "name": "Метформин",
+                    "dosage": "500 мг",
+                    "frequency": "2 раза в день"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Мария Петрова",
+            "age": 38,
+            "gender": "Женский",
+            "diagnoses": [
+                {
+                    "date": "2024-02-20",
+                    "condition": "Астма",
+                    "severity": "Тяжелая"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Сальбутамол",
+                    "dosage": "100 мкг",
+                    "frequency": "По мере необходимости"
+                }
+            ]
+        }
+    ]
+}
